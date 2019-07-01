@@ -1,7 +1,11 @@
-<h1>Meus Plugins e Configurações VSCODE</h1>
+<h1>Meus Plugins e Configurações VSCODE e AMBIENTE</h1>
 <p>Gosto de deixar meu ambiente organizado então resolvi deixar tudo organizado aqui no GITHUB.</p>
 
-<h2>Plugins</h2>
+<h2>Ambiente</h2>
+<h3>DEVDOCS</h3>
+<p>Programa com a documentação de várias liguagens WEB</p>
+
+<h2>VSCODE</h2>
 
 <h3>Color Highlight</h3>
 <p>Esta extensão estiliza as cores css / web encontradas em seu documento.</p>
