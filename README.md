@@ -32,6 +32,16 @@
 <p>Icones para arquivos no VSCODE</p>
 <code>Use: Shift + Comand + p ( Procure por ) =>icons: Activate VSCode Icons </code>
 
+<h3>nodemon + sucrase -D</h3>
+<p>NodeMon reload de uma aplicação node e sucrase muda para nova sintax js</p>
+<p>Crie um arquivo chamado nodemon.json e insira o código a baixo.</p>
+<code>{
+  "execMap": {
+    "js": "sucrase-node"
+  }
+}
+</code>
+
 <h3>settings.json</h3>
 <p>Nesse arquivo do vscode deixo configurado o json a baixo:</p>
 <code>
