@@ -44,6 +44,7 @@
 
 <h3>settings.json</h3>
 <p>Nesse arquivo do vscode deixo configurado o json a baixo:</p>
+<p>Baixe a fonte fira code</p>
 <code>
 {
   "workbench.colorTheme": "Dracula",
