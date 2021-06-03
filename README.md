@@ -46,27 +46,23 @@
 <p>Nesse arquivo do vscode deixo configurado o json a baixo:</p>
 <p>Baixe a fonte fira code</p>
 <code>
-{
-  "workbench.colorTheme": "Dracula",
-  "editor.fontFamily": "Fira Code",
-  "editor.fontLigatures": true,
-  "editor.fontSize": 18,
-  "editor.lineHeight": 24,
+{ 
+  "workbench.colorTheme": "Dracula", 
+  "editor.fontLigatures": true, 
+  "editor.fontSize": 18, 
+  "editor.lineHeight": 24, 
+  "editor.formatOnSave": true, 
+  "editor.rulers": [80, 120], 
+  "editor.tabSize": 2, 
+  "editor.renderLineHighlight": "gutter", 
+  "terminal.integrated.fontSize": 14, 
+  "emmet.includeLanguages": { "javascript": "javascriptreact" }, 
+  "javascript.updateImportsOnFileMove.enabled": "never", 
+  "breadcrumbs.enabled": true, 
+  "editor.parameterHints.enabled": false, 
+  "workbench.iconTheme": "vscode-icons", 
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "editor.rulers": [80, 120],
-  "editor.tabSize": 2,
-  "editor.renderLineHighlight": "gutter",
-  "terminal.integrated.fontSize": 14,
-  "emmet.syntaxProfiles": {
-    "javascript": "jsx"
-  },
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
-  "javascript.updateImportsOnFileMove.enabled": "never",
-  "breadcrumbs.enabled": true,
-  "editor.parameterHints.enabled": false,
-  "prettier.eslintIntegration": true,
-  "workbench.iconTheme": "vscode-icons"
+  "editor.formatOnPaste": false
 }
 </code>
