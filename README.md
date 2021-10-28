@@ -48,18 +48,20 @@
 <code>
 {
   "workbench.colorTheme": "Dracula",
-  "editor.fontLigatures": true,
-  "editor.fontSize": 18,
+  "editor.fontSize": 20,
   "editor.lineHeight": 24,
+  "editor.formatOnSave": true,
   "editor.rulers": [80, 120],
   "editor.tabSize": 2,
   "editor.renderLineHighlight": "gutter",
   "terminal.integrated.fontSize": 14,
-  "emmet.includeLanguages": { "javascript": "javascriptreact" },
-  "javascript.updateImportsOnFileMove.enabled": "never",
   "breadcrumbs.enabled": true,
   "workbench.iconTheme": "vscode-icons",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": false
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.suggestSelection": "first",
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always"
 }
+
 </code>
